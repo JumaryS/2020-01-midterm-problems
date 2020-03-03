@@ -2,20 +2,18 @@
  * YOUR CODE HERE *
  ******************/
 
-function fizzBuzzSingleNumber(str='', num){
 
-  
+
+function fizzBuzzSingleNumber(str, num){
 
   for(let i=0; i< str.length;i++){
 
     if(num % 3 === 0 && num % 5 === 0){
-      return( "FizzBuzz") 
-    }else if (num % 3 === 0){
-      return( "Fizz")
-    }else if(num % 5 === 0){
-      return("Buzz")
-    } else{
-      
+      return "FizzBuzz"
+    }if (num % 3 === 0 && str % 5 !== 0){
+      return "Fizz" 
+    } if(num % 5 === 0){
+      return "Buzz"
     }
       
     }return str
@@ -43,13 +41,24 @@ function fizzBuzzSingleNumber(str='', num){
 
 
     function getAverage(average){
+    let x=[]
+      for(let i=0; average.length>i; i++){
+        Math.round(x.length)
 
-      let x=[]
+      }return average
+    } 
 
-      for(let i=0; i<average.length; i ++){
-        if (x[i] )
+
+    function triStateAreaOnly(states){
+
+      let towns=[]
+
+      if(states === "CT"|| states ==="NY" || states === "NJ"){
+        return towns
       }
+      
     }
+
 
 
 
